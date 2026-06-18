@@ -8,6 +8,7 @@ func ifStatement() {
 	// if statement
 	age := 20
 
+
 	if age >= 18 {
 		fmt.Println("Dewasa")
 	} else if age >= 13 {
