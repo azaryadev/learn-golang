@@ -185,10 +185,10 @@ type Contact struct {
 	Phone string
 }
 
-type Application struct {
-	Company string
-	Status  string
-}
+// type Application struct {
+// 	Company string
+// 	Status  string
+// }
 
 func countByStatus(apps []Application) map[string]int {
 
@@ -222,14 +222,14 @@ func challengeStruct() {
 		(gunakan for...range dan map yang sudah dipelajari sebelumnya).
 	*/
 
-	applications := []Application{
-		{Company: "Deloitte", Status: "interview"},
-		{Company: "Covena", Status: "applied"},
-		{Company: "Startup X", Status: "rejected"},
-	}
+	// applications := []Application{
+	// 	{Company: "Deloitte", Status: "interview"},
+	// 	{Company: "Covena", Status: "applied"},
+	// 	{Company: "Startup X", Status: "rejected"},
+	// }
 
-	result := countByStatus(applications)
+	// result := countByStatus(applications)
 
-	fmt.Println(result)
+	// fmt.Println(result)
 
 }
