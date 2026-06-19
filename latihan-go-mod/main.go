@@ -9,6 +9,8 @@ func main() {
 	// latihan.MateriKetiga()
 	// latihan.MateriKeempat()
 	// latihan.MateriKelima()
-	latihan.MateriKeenam()
+	// latihan.MateriKeenam()
+	// latihan.MateriKetujuh()
+	latihan.MateriKetujuhLatihanMandiri()
 
 }
